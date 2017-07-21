@@ -1,0 +1,86 @@
+.paging {
+    margin-top: 100px;
+    text-align: center;
+}
+.paging a {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 4px;
+    color: #333;
+    background-color: white;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);
+    transition: .4s linear all;
+}
+.paging a:link {
+    text-decoration: none;
+}
+.paging a:visited {
+    text-decoration: none;
+}
+.paging a:hover {
+    text-decoration: none;
+    background-color: #fb4748;
+    color: white;
+    cursor: pointer;
+}
+.paging .hover {
+    text-decoration: none;
+    background-color: #fb4748 !important;
+    color: white !important;
+    cursor: pointer;
+}
+.paging .paging-ellipsis {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    color: #333;
+    background-color: white;
+}
+.paging input {
+    width: 50px;
+    height: 36px;
+}
+.paging .btn-box a, span>a {
+    margin-left: 1px;
+}
+.paging>.text-box {
+    display: inline-block;
+    margin: 0 10px;
+    height: 34px;
+    line-height: 34px;
+    color: #999;
+}
+.paging>.input-box {
+    display: inline-block;
+    height: 38px;
+    vertical-align: middle;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+}
+.paging>.input-box>a {
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 1px solid #d8d8d8;
+    box-shadow: none;
+    color: #333;
+    transition: .4s all linear;
+}
+.paging>.input-box>a:hover {
+    background-color: white;
+    color: #333;
+}
+.paging>.input-box>input {
+    float: left;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+}
+.paging>.input-box>input:focus {
+    float: left;
+    outline: none;
+}

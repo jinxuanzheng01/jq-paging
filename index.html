@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="paging.css">
+</head>
+
+<body>
+    <div class="page-packing"></div>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="jxzPaging-1.1.1.js"></script>
+    <script>
+$('.page-packing').jxzPaging({
+    pageSize: 3, // 每页数量
+    totalNum: 100, // 总数
+    callBack: function(currentPage) { // 回调 params: 当前页
+        console.log(currentPage);
+    }
+});
+
+    </script>
+</body>
+
+</html>
