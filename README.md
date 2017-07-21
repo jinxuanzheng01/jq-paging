@@ -5,7 +5,7 @@ jq 的分页插件
 
 一个简单实用的jq分页插件,该插件将ajax抽出只进行当前为第几页的计算，请在回调内自行写入ajax请求。
 
-###效果
+### 效果
 ![preview](http://otfhhagqp.bkt.clouddn.com/github/jq/pagingjq_paging_preview.gif)
 
 ### 使用
